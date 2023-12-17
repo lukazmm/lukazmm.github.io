@@ -10,6 +10,9 @@ build_search_index = true
 # Default Language is English
 default_language = "en"
 
+# For overriding the default output directory `public`, set it to another value (e.g.: "docs")
+output_dir = "docs"
+
 
 [markdown]
 # Whether to do syntax highlighting

@@ -23,13 +23,12 @@ highlight_code = true
 # Put all your custom variables here
 
 # Site settings
-description = "A blog about lorem ipsum dolor sit amet"
+description = "Personal Site of Lukas Mesicek"
 
 # User settings
-username = "Lukas Mesicek"
-user_description = "Student majoring in Physics and Mathematics at the University of Utah. Studying critical phenomena in the collapse of black holes using Numerical Relativity."
+user_name = "Lukas Mesicek"
 user_title = "Student Researcher at the University of Utah"
+
+# Socials
 email = "lukas.m.mesicek@gmail.com"
-# twitter_username = "lorem_ipsum"
-github_username = "lukazmm"
-# gplus_username = "lorem_ipsum"
+github = "lukazmm"

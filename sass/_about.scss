@@ -7,8 +7,38 @@
   }
 }
 
+#profile {
+  border-radius: 50%;
+}
+
+#about-me-text {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
 .tech {
   margin: 10px;
+}
+
+.user-about {
+  display: flex;
+  margin: 20px auto;
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  h5 {
+    margin: 0;
+  }
+  li {
+    color: $main;
+    font-size: 1.1rem;
+  }
+  p {
+    margin-right: 5px;
+  }
 }
 
 .user {

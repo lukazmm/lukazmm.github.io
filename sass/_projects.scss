@@ -32,16 +32,25 @@
 .contents {
   @media only screen and (min-width: $cut) {
     margin-left: 0;
+    margin-right: 5%;
     width: 48%;
+  }
+
+  p {
+    vertical-align: middle
   }
 }
 
 .contents-right {
   @media only screen and (min-width: $cut) {
     float: right;
-    margin-top: -5%;
+    margin-left: 5%;
+    margin-right: 0;
     width: 48%;
   }
+
+  display: flex;
+  align-items: center;
 }
 .images-right {
   @media only screen and (min-width: $cut) {

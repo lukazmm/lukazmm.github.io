@@ -1,0 +1,122 @@
+{% import "macros.html" as macros %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  {{ macros::head() }}
+
+  <body>
+
+      {{ macros::header() }}
+
+      <!-- <section id="about">
+        <div class="user-details">
+          <h1> About Me </h1>
+          <p> I am an undergraduate student majoring in Physics and Mathematics at the University of Utah. 
+            Currently, I study critical phenomena in the collapse of black holes using Numerical Relativity. 
+          </p>
+        </div> -->
+
+        
+        <!-- <div class="user">
+    <div class="tech">
+      <h2>Design</h2>
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-bootstrap-plain-wordmark colored"></i>
+      <i class="devicon-sass-original colored"></i>
+      <p></p>
+    </div>
+    <div class="tech">
+      <h2>Code</h2>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-react-original-wordmark colored"></i>
+      <i class="devicon-nodejs-plain-wordmark"></i>
+      <p></p>
+    </div>
+    <div class="tech">
+      <h2>Tools</h2>
+      <i class="devicon-git-plain"></i>
+      <i class="devicon-gulp-plain colored"></i>
+      <i class="devicon-atom-original-wordmark"></i>
+      <p></p>
+    </div>
+</div> -->
+      <!-- </section> -->
+
+      <section id="about">
+        <div class="user-details">
+          <h1> About Me </h1>
+        </div>
+        <div class="user-about">
+          <div class="images-left">
+            <img id="profile" alt="profile" src="{{ config.base_url ~ "/img/profile.jpg" }}" />
+          </div>
+          <div class="contents-right" id="about-me-text">
+            <p>
+              I am an undergraduate student majoring in Physics and Applied Mathematics at the University of Utah. 
+              Currently, I study critical phenomena in the collapse of black holes using Numerical Relativity. 
+            </p>
+          </div>
+        </div>
+        <!-- <div class="user-projects">
+          <div class="images-left">
+            <img alt="mountains" src="{{ config.base_url ~ "/img/skate.jpg" }}" />
+          </div>
+          <div class="contents-right">
+            <h3> Project Title </h3>
+            <ul>
+              <li> Featured Skills</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="project-link" href="#">Check it out</a>
+          </div>
+        </div> -->
+      </section>
+
+
+      <section id="projects">
+        <div class="user-details">
+          <h1> Projects </h1>
+        </div>
+        <div class="user-projects">
+          <div class="images-right">
+            <img alt="toymodel" src="{{ config.base_url ~ "/img/toymodel.png" }}" />
+          </div>
+          <div class="contents">
+            <h3> Black Hole Simulations using the Finite Difference Method </h3>
+            <!-- <ul>
+              <li> Featured Skills</li>
+            </ul> -->
+            <p>My current research investigates the behaviour of critical black hole collapse using numerical methods. 
+              In spherical symmetry critical collapse reveals a suprising degree of structure, and appears to contradict 
+              the principle of cosmic censorship. I am studying such collapse in axisymmetry to help determine how such critical
+              phenomena changes in higher dimensional systems.
+            </p>
+            <!-- <a class="project-link" href="#">Check it out</a> -->
+          </div>
+        </div>
+        <!-- <div class="user-projects">
+          <div class="images-left">
+            <img alt="mountains" src="{{ config.base_url ~ "/img/skate.jpg" }}" />
+          </div>
+          <div class="contents-right">
+            <h3> Project Title </h3>
+            <ul>
+              <li> Featured Skills</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="project-link" href="#">Check it out</a>
+          </div>
+        </div> -->
+      </section>
+
+
+      {% block content %}
+      <p></p>
+      {% endblock content %}
+
+
+      {{ macros::footer() }}
+      {# macros::google_analytics() #}
+
+  </body>

@@ -13,7 +13,7 @@ extra.journal="KISV '23: Proceedings of the 1st Workshop on Kernel Isolation, Sa
 
 This work applies a linearly typed extension of Rust and a newly developed SMT Verifier, Verus, to formally verify low-level operating system code.
 
-**Recommended Citation**: *Atmosphere: Towards Practical Verified Kernels in Rust*. Xiangdong C., Zhaofeng L., *Mesicek L.*, Narayanan V., and Burtsev A. Published in _KISV '23: Proceedings of the 1st Workshop on Kernel Isolation, Safety and Verification_.
+**Citation**: *Atmosphere: Towards Practical Verified Kernels in Rust*. Xiangdong C., Zhaofeng L., Mesicek L., Narayanan V., and Burtsev A. Published in _KISV '23: Proceedings of the 1st Workshop on Kernel Isolation, Safety and Verification_.
 
 **DOI**: [10.1145/3625275.3625401](https://doi.org/10.1145/3625275.3625401)
 

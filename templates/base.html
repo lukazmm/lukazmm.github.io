@@ -98,7 +98,8 @@
           {% if lang == item.code %}
           {% for nav in item.nav_items %}
           <a class="navbar-item has-text-weight-semibold"
-            href="{{ nav.url | replace(from='$BASE_URL', to=config.base_url) }}">
+            href="{{ nav.url | replace(from='$BASE_URL', to=config.base_url) }}" {% if nav.new and nav.new==true
+            %}target="_blank" {% endif %}>
             {{ nav.name }}
           </a>
           {% endfor %}
